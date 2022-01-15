@@ -1,7 +1,7 @@
 {
   "name": "erpi",
   "version": "1.0.0",
-  "description": "Elephant Runtime Package Manager",
+  "description": "Elephant Runtime Package Indexer",
   "main": "index.js",
   "dependencies": {
     "chalk": "^4.1.2",
