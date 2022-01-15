@@ -1,7 +1,7 @@
 {
   "name": "erpi",
   "version": "1.0.0",
-  "description": "",
+  "description": "Elephant Runtime Package Manager",
   "main": "index.js",
   "dependencies": {
     "chalk": "^4.1.2",
@@ -10,7 +10,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "engines": {
     "node": "16.x"
