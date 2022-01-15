@@ -1,29 +1,56 @@
 {
-  "name": "erpi",
-  "version": "1.0.0",
-  "description": "Elephant Runtime Package Indexer",
-  "main": "index.js",
+  "_from": "erpi@1.0.13",
+  "_id": "erpi@1.0.13",
+  "_inBundle": false,
+  "_integrity": "sha512-qBT2Beu3AeRh37nCIgazXQPnMPqUfHcz859owbKqcsAnWsYdbI2oTEjUaMiqQYDIk1cOZsKTtU4TNL+9qu8pGw==",
+  "_location": "/erpi",
+  "_phantomChildren": {
+    "follow-redirects": "1.14.7"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "erpi@1.0.13",
+    "name": "erpi",
+    "escapedName": "erpi",
+    "rawSpec": "1.0.13",
+    "saveSpec": null,
+    "fetchSpec": "1.0.13"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/erpi/-/erpi-1.0.13.tgz",
+  "_shasum": "b089580f3c5c352c2071fd08ccc95dda7d5a0e9a",
+  "_spec": "erpi@1.0.13",
+  "_where": "/home/runner/cradle-runtime/node_modules",
+  "bin": {
+    "erpi-get": "bin/get.js",
+    "erpi-publish": "bin/publish.js"
+  },
+  "bundleDependencies": false,
   "dependencies": {
-    "chalk": "^4.1.2",
-    "cli2json": "^1.0.0",
-    "node-fetch": "^2.6.6",
     "axios": "^0.23.0",
-    "express": "^4.17.1",
-    "form-data": "^4.0.0",
-    "express-fileupload": "^1.2.1",
     "cors": "^2.8.5",
-    "morgan": "^1.10.0",
-    "lodash": "^4.17.21"
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "form-data": "^4.0.0",
+    "lodash": "^4.17.21",
+    "morgan": "^1.10.0"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
-  },
+  "deprecated": false,
+  "description": "Elephant Runtime Package Indexer",
   "engines": {
     "node": "16.x"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "main": "index.js",
+  "name": "erpi",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.15"
 }
